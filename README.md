@@ -1,4 +1,4 @@
-# Stromatoporoid reef size (v16) — main analysis notebook
+# Stromatoporoid reef size (v17) — main analysis notebook
 
 This repository contains the full analysis workflow for **stromatoporoid reef morphology / reef size** and its relationship to **PBDB diversity** and **environmental proxy time series**.
 
@@ -8,7 +8,7 @@ All input files required by the notebooks are already included in the GitHub rep
 
 ## Notebooks
 
-### 1) `stromatoporoid_reef_size_v16_final_main.ipynb` (PRIMARY; Ordovician–Devonian)
+### 1) `stromatoporoid_reef_size_v17.ipynb` (PRIMARY; Ordovician–Devonian)
 Main analysis notebook for **Ordovician–Devonian** (primary results). It runs the end-to-end workflow:
 
 - builds Ord–Dev stage-level and 5-Myr-binned reef datasets from the PARED reef table
@@ -21,7 +21,7 @@ Main analysis notebook for **Ordovician–Devonian** (primary results). It runs 
 
 > **Outputs** are written to `./output/` as intermediate datasets and result tables.
 
-### 2) `stromatoporoid_reef_size_Camb_Dev_Suppv16.ipynb` (SUPPLEMENT; Cambrian–Devonian)
+### 2) `stromatoporoid_reef_size_Camb_Dev_Suppv17.ipynb` (SUPPLEMENT; Cambrian–Devonian)
 Supplementary notebook that performs the **same core data integration** as the main notebook but expands the time window to **Cambrian–Devonian** and is intentionally limited to **simple correlations** (no advanced statistics beyond the correlation workflow).
 
 ---
